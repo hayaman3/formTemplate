@@ -1,5 +1,14 @@
+:root {
+	--white: #ffffff;
+	--accent: #2d495a;
+	--body: #e6efec;
+	--darker: #d8e6e1;
+	--green: #56c596;
+	--red: #c55656;
+}
+
 body {
-	background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+	background: linear-gradient(to right, #235368, #16282e, #2c5364);
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -10,6 +19,7 @@ body {
 	background-color: whitesmoke;
 	border-radius: 4px;
 	font-size: 12px;
+	cursor: pointer;
 }
 
 #form h1 {
@@ -47,15 +57,15 @@ body {
 }
 
 .input-control.success input {
-	border-color: #09c372;
+	border-color: var(--green);
 }
 
 .input-control.error input {
-	border-color: #ff3860;
+	border-color: var(--red);
 }
 
 .input-control .error {
-	color: #ff3860;
+	color: var(--red);
 	font-size: 9px;
 	height: 13px;
 }
